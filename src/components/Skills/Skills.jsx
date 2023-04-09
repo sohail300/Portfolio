@@ -53,8 +53,8 @@ function Skills(){
         
         <div className="platform-icon" class="icon">
         {/* <Heroku /> */}
-        <Github />
         <Netlify />
+        <Github />
         </div>
 
         <div className="databases-icon" class="icon">

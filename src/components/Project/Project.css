@@ -16,6 +16,11 @@
     border-radius: 4px;
     background-color: greenyellow;
     padding: 10px;
+    background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
+    background-size: 400%;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .project{

@@ -2,7 +2,7 @@ import react from 'react';
 
 function Express(){
     return(
-        <p>Express</p>
+        <p style={{fontSize:25}}>Express</p>
     );
 }
 

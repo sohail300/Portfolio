@@ -14,10 +14,46 @@
 .skills-btn{
     border: none;
     border-radius: 4px;
-    background-color: greenyellow;
-    padding: 8px;
+    /* background-color: greenyellow; */
+    padding: 10px;
+    background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
+    background-size: 400%;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
 
+.skills-btn:hover {
+    animation: animate 8s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  .skills-btn::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5%;
+  }
+  .skills-btn:hover::before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+  }
+  
 .icon{
     display: flex;
     justify-content: space-around;

@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills';
 import Project from './components/Project/Project';
 import Achievements from './components/Achievement/Achievements';
 import Footer from './components/Footer/Footer';
+import Copyright from './components/Copyright/Copyright';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Project />
       <Achievements />
       <Footer />
+      <Copyright />
     </div>
   );
 }
