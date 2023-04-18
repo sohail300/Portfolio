@@ -9,10 +9,9 @@ import Footer from './components/Footer/Footer';
 import Copyright from './components/Copyright/Copyright';
 
 
-
 function App() {
   return (
-    <div id='home'>
+    <>
       <Navbar />
       <Hero />
       <About />
@@ -21,7 +20,7 @@ function App() {
       <Achievements />
       <Footer />
       <Copyright />
-    </div>
+    </>
   );
 }
 
