@@ -40,7 +40,7 @@ function Project(){
             <Card id='color-game-card' className='mega-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png'/>
 
             {/* /* CHANGES HERE IF MADE NEW PROJECT TO LIST IN THE PORTFOLIO */}
-            <Card id='color-game-card' className='mega-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png'/> */
+            <Card id='color-game-card' className='mega-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png'/>
             </>
             )}
             </div>
