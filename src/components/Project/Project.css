@@ -16,11 +16,16 @@
     border-radius: 4px;
     background-color: greenyellow;
     padding: 10px;
-    background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
+    background: linear-gradient(90deg, yellow, red, orange);
+    transition: all 0.2s ease-in-out;
     background-size: 400%;
     font-family: 'Schibsted Grotesk', sans-serif;
     font-size: 15px;
     font-weight: 600;
+}
+
+.project-btn:hover{
+    box-shadow: 0 5px 15px rgb(255, 196, 0);
 }
 
 .project{

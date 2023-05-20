@@ -37,10 +37,10 @@ function Project(){
             {mega && (
             <>
             
-            <Card id='color-game-card' className='mega-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png'/>
+            <Card id='color-game-card' className='mega-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='https://drive.google.com/file/d/1FK5owhn66Yyqx4hVHlp-HSyvIb9nNzLY/view?usp=share_link' alt='color-game-project.png'/>
 
             {/* /* CHANGES HERE IF MADE NEW PROJECT TO LIST IN THE PORTFOLIO */}
-            <Card id='color-game-card' className='mega-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png'/>
+            <Card id='color-game-card' className='mega-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png' alt='color-game-project.png'/>
             </>
             )}
             </div>
@@ -50,10 +50,10 @@ function Project(){
             {pet && (
                 <>
                 <Carousel breakPoints={breakPoints}>
-                <Item><Card id='color-game-card' className='pet-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png'/></Item>
-                <Item><Card id='dice-game-card' className='pet-project-card' link="https://sohail60.github.io/dice-game/" imageLink='../../images/dice-game-project.png'/></Item>
-                <Item><Card id='ping-pong-card' className='pet-project-card' link="https://sohail60.github.io/ping-pong-score-keeper/" imageLink='../../images/ping-pong-project.png'/></Item>
-                <Item><Card id='todo-list-card' className='pet-project-card' link="https://sohail60.github.io/To-Do-List/" imageLink='../../images/todo-list-project.png'/></Item>
+                <Item><Card id='color-game-card' className='pet-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png' alt='color-game-project.png'/></Item>
+                <Item><Card id='dice-game-card' className='pet-project-card' link="https://sohail60.github.io/dice-game/" imageLink='../../images/dice-game-project.png' alt='dice-game-project.png'/></Item>
+                <Item><Card id='ping-pong-card' className='pet-project-card' link="https://sohail60.github.io/ping-pong-score-keeper/" imageLink='../../images/ping-pong-project.png' alt='color-game-project.png'/></Item>
+                <Item><Card id='todo-list-card' className='pet-project-card' link="https://sohail60.github.io/To-Do-List/" imageLink='../../images/todo-list-project.png' alt='color-game-project.png'/></Item>
                 </Carousel>
                 </>
             )}

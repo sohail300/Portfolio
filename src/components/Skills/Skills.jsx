@@ -15,6 +15,7 @@ import Netlify from "../icons/Netlify";
 import MongoDB from "../icons/MongoDB";
 import MySQL from "../icons/MySQL";
 import Firebase from "../icons/Firebase";
+// import {FaFigma} from 'react-icons/fa';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faJava} from '@fortawesome/free-solid-svg-icons'
@@ -110,6 +111,7 @@ function Skills() {
 
       {tools && (
         <div className="tools-icon" class="icon">
+        {/* <FaFigma /> */}
           <Git />
           <Notion />
         </div>
