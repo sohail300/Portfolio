@@ -35,8 +35,13 @@
   margin: 30px;
 }
 
-.icon img {
+/* .icon img {
   height: 150px;
   width: 120px;
   border-radius: 15px;
+} */
+
+.figma{
+  width: 6%;
+  /* height: 20px; */
 }

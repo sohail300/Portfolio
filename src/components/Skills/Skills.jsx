@@ -15,6 +15,7 @@ import Netlify from "../icons/Netlify";
 import MongoDB from "../icons/MongoDB";
 import MySQL from "../icons/MySQL";
 import Firebase from "../icons/Firebase";
+import Figma from '../icons/figma.png'
 // import {FaFigma} from 'react-icons/fa';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -83,9 +84,9 @@ function Skills() {
         <button className="skills-btn" onClick={handleTools}>
           Tools
         </button>
-        <button className="skills-btn" onClick={handlePlatform}>
+        {/* <button className="skills-btn" onClick={handlePlatform}>
           Platform
-        </button>
+        </button> */}
         <button className="skills-btn" onClick={handleDatabases}>
           Databases
         </button>
@@ -96,8 +97,8 @@ function Skills() {
           <Java />
           <Javascript />
           <Python />
-          <HTML />
-          <CSS />
+          {/* <HTML /> */}
+          {/* <CSS /> */}
         </div>
       )}
 
@@ -113,17 +114,20 @@ function Skills() {
         <div className="tools-icon" class="icon">
         {/* <FaFigma /> */}
           <Git />
-          <Notion />
+          <Github />
+          <Netlify />
+          <img src={Figma} alt="" className='figma' />
         </div>
       )}
 
+{/* 
       {platform && (
         <div className="platform-icon" class="icon">
-          {/* <Heroku /> */}
-          <Netlify />
-          <Github />
+        <Netlify />
+        <Github />
         </div>
-      )}
+      )} 
+*/}
 
       {databases && (
         <div className="databases-icon" class="icon">

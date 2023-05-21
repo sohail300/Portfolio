@@ -55,6 +55,14 @@ input, textarea{
     padding: 5px;
 }
 
+input:focus{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
 #image-container{
     display: flex;
     justify-content: space-around;

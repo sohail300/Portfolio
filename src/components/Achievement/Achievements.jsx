@@ -38,14 +38,13 @@ function Achievements() {
       <div id="achievment-desc">
         {experience && (
           <div id="experience" className="achievement">
-            <p>
-              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
-              Contributed in the implementation of backend in the college fest
-              website.
+          <p>
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
+              Lead a group of 4 students in a hackathon.
             </p>
             <p>
-              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
-              Lead a group of 4 students in a hackathon.
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
+              Contributed in the college fest website.
             </p>
           </div>
         )}
