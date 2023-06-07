@@ -38,13 +38,17 @@ function Achievements() {
       <div id="achievment-desc">
         {experience && (
           <div id="experience" className="achievement">
-          <p>
+            {/* <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
               Lead a group of 4 students in a hackathon.
-            </p>
+            </p> */}
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
-              Contributed in the college fest website.
+              Contributed in the college fest website. <a className="links" href="https://hackathoniiitbh.github.io/enyugma2022/">Link</a>
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
+              Designed UI/UX for these websites. <a className="links" href="https://github.com/sohail60/UI-Designs">Link</a>
             </p>
           </div>
         )}
@@ -55,10 +59,7 @@ function Achievements() {
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} /> Won
               a Open Source contest HackSquad organised by Novu.
             </p>
-            <p>
-              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
-              Designed UI for this website.
-            </p>
+            
           </div>
         )}
 
