@@ -5,17 +5,17 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function Achievements() {
   const [experience, setExperience] = useState(true);
-  const [opensource, setOpensource] = useState(false);
+  // const [opensource, setOpensource] = useState(false);
   const [community, setCommunity] = useState(false);
 
   function handleExperience(e) {
     setExperience(true);
-    setOpensource(false);
+    // setOpensource(false);
     setCommunity(false);
   }
 
   function handleOpensource(e) {
-    setOpensource(true);
+    // setOpensource(true);
     setExperience(false);
     setCommunity(false);
   }
@@ -23,7 +23,7 @@ function Achievements() {
   function handleCommunity(e) {
     setCommunity(true);
     setExperience(false);
-    setOpensource(false);
+    // setOpensource(false);
   }
 
   return (
@@ -31,7 +31,7 @@ function Achievements() {
       <h2>Achievements</h2>
       <div id="achievment-btn-container">
         <button className="achievment-btn" onClick={handleExperience}>Experience</button>
-        <button className="achievment-btn" onClick={handleOpensource}>Open Source</button>
+        {/* <button className="achievment-btn" onClick={handleOpensource}>Open Source</button> */}
         <button className="achievment-btn" onClick={handleCommunity}>Community Work</button>
       </div>
 
@@ -44,16 +44,24 @@ function Achievements() {
             </p> */}
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
+              Worked as a freelancer for a women apperal startup (will be launching in August-September).
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
               Contributed in the college fest website. <a className="links" href="https://hackathoniiitbh.github.io/enyugma2022/">Link</a>
             </p>
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
               Designed UI/UX for these websites. <a className="links" href="https://github.com/sohail60/UI-Designs">Link</a>
             </p>
+            <p>
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
+              Won a Open Source contest 'HackSquad' organised by Novu.
+            </p>
           </div>
         )}
 
-        {opensource && (
+        {/* {opensource && (
           <div id="open-source" className="achievement">
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} /> Won
@@ -61,7 +69,7 @@ function Achievements() {
             </p>
             
           </div>
-        )}
+        )} */}
 
         {community && (
           <div id="community-work" className="achievement">

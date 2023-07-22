@@ -29,7 +29,7 @@ function Project() {
           Projects
         </button>
       </div> */}
-{/* 
+      {/* 
       <div id="mega-project" className="project">
         {mega && (
           <>
@@ -41,8 +41,8 @@ function Project() {
                 alt="color-game-project.png"
               /> */}
 
-              {/* CHANGES HERE IF MADE NEW PROJECT TO LIST IN THE PORTFOLIO */}
-              {/* <Card
+      {/* CHANGES HERE IF MADE NEW PROJECT TO LIST IN THE PORTFOLIO */}
+      {/* <Card
                 id="color-game-card"
                 className="mega-project-card"
                 link="https://sohail60.github.io/color-guesser-game/"
@@ -53,113 +53,113 @@ function Project() {
         )}
       </div> */}
 
-{/* Projects for Front End starts */}
+      {/* Projects for Front End starts */}
       <div id="pet-project" className="project">
-              <Card
-                id="color-game-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/color-guesser-game/"
-                imageLink="../../images/color-game-project.png"
-                alt="color-game-project.png"
-              />
-              {/* <Card
+        <Card
+          id="todo-list-card"
+          className="pet-project-card"
+          link="https://sohail60.github.io/02-Movie-Seat-Booking/"
+          imageLink="../../images/todo-list-project.png"
+          alt="color-game-project.png"
+        />
+        <Card
+          id="todo-list-card"
+          className="pet-project-card"
+          link="https://sohail60.github.io/04-Exchange-Rate-Calculator/"
+          imageLink="../../images/todo-list-project.png"
+          alt="color-game-project.png"
+        />
+        <Card
+          id="todo-list-card"
+          className="pet-project-card"
+          link="https://sohail60.github.io/06-Hangman-Game/"
+          imageLink="../../images/todo-list-project.png"
+          alt="color-game-project.png"
+        />
+        <Card
+          id="color-game-card"
+          className="pet-project-card"
+          link="https://sohail60.github.io/color-guesser-game/"
+          imageLink="../../images/color-game-project.png"
+          alt="color-game-project.png"
+        />
+        {/* <Card
                 id="dice-game-card"
                 className="pet-project-card"
                 link="https://sohail60.github.io/dice-game/"
                 imageLink="../../images/dice-game-project.png"
                 alt="dice-game-project.png"
               /> */}
-              <Card
-                id="ping-pong-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/ping-pong-score-keeper/"
-                imageLink="../../images/ping-pong-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/To-Do-List/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/02-Movie-Seat-Booking/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/04-Exchange-Rate-Calculator/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/06-Hangman-Game/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              </div>
-{/* Projects for Front End ends*/}
+        <Card
+          id="ping-pong-card"
+          className="pet-project-card"
+          link="https://sohail60.github.io/ping-pong-score-keeper/"
+          imageLink="../../images/ping-pong-project.png"
+          alt="color-game-project.png"
+        />
+        <Card
+          id="todo-list-card"
+          className="pet-project-card"
+          link="https://sohail60.github.io/To-Do-List/"
+          imageLink="../../images/todo-list-project.png"
+          alt="color-game-project.png"
+        />
+      </div>
+      {/* Projects for Front End ends*/}
 
       <div id="pet-project" className="project">
         {pet && (
           <>
-              <Card
-                id="color-game-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/color-guesser-game/"
-                imageLink="../../images/color-game-project.png"
-                alt="color-game-project.png"
-              />
-              {/* <Card
+            <Card
+              id="color-game-card"
+              className="pet-project-card"
+              link="https://sohail60.github.io/color-guesser-game/"
+              imageLink="../../images/color-game-project.png"
+              alt="color-game-project.png"
+            />
+            {/* <Card
                 id="dice-game-card"
                 className="pet-project-card"
                 link="https://sohail60.github.io/dice-game/"
                 imageLink="../../images/dice-game-project.png"
                 alt="dice-game-project.png"
               /> */}
-              <Card
-                id="ping-pong-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/ping-pong-score-keeper/"
-                imageLink="../../images/ping-pong-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/To-Do-List/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/02-Movie-Seat-Booking/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/04-Exchange-Rate-Calculator/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              <Card
-                id="todo-list-card"
-                className="pet-project-card"
-                link="https://sohail60.github.io/06-Hangman-Game/"
-                imageLink="../../images/todo-list-project.png"
-                alt="color-game-project.png"
-              />
-              
+            <Card
+              id="ping-pong-card"
+              className="pet-project-card"
+              link="https://sohail60.github.io/ping-pong-score-keeper/"
+              imageLink="../../images/ping-pong-project.png"
+              alt="color-game-project.png"
+            />
+            <Card
+              id="todo-list-card"
+              className="pet-project-card"
+              link="https://sohail60.github.io/To-Do-List/"
+              imageLink="../../images/todo-list-project.png"
+              alt="color-game-project.png"
+            />
+            <Card
+              id="todo-list-card"
+              className="pet-project-card"
+              link="https://sohail60.github.io/02-Movie-Seat-Booking/"
+              imageLink="../../images/todo-list-project.png"
+              alt="color-game-project.png"
+            />
+            <Card
+              id="todo-list-card"
+              className="pet-project-card"
+              link="https://sohail60.github.io/04-Exchange-Rate-Calculator/"
+              imageLink="../../images/todo-list-project.png"
+              alt="color-game-project.png"
+            />
+            <Card
+              id="todo-list-card"
+              className="pet-project-card"
+              link="https://sohail60.github.io/06-Hangman-Game/"
+              imageLink="../../images/todo-list-project.png"
+              alt="color-game-project.png"
+            />
+
 
             {/* <Carousel breakPoints={breakPoints}>
                 <Item><Card id='color-game-card' className='pet-project-card' link="https://sohail60.github.io/color-guesser-game/" imageLink='../../images/color-game-project.png' alt='color-game-project.png'/></Item>
