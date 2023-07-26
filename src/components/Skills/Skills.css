@@ -1,7 +1,16 @@
 #skills-container {
+  align-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  /* border: 2px solid white; */
+  /* width: 80%; */
+}
+
+#skills-container h2 {
+  font-family: SF Pro Display;
 }
 
 #skills-btn-container {
@@ -16,10 +25,11 @@
   border-radius: 4px;
   /* background-color: greenyellow; */
   padding: 10px;
-  background: linear-gradient(90deg, yellow, red, orange);
+  width: 10%;
+  background: linear-gradient(90deg, rgb(255, 255, 0), orange);
   transition: all 0.2s ease-in-out;
   background-size: 400%;
-  font-family: "Schibsted Grotesk", sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
@@ -41,7 +51,7 @@
   border-radius: 15px;
 } */
 
-.figma{
+.figma {
   width: 6%;
   /* height: 20px; */
 }

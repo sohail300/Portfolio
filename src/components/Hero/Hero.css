@@ -1,46 +1,49 @@
-main{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
 }
 
-#download-cv{
-    background-color: #2d2d2d;
-    border: none;
-    border-radius: 4px;
-    padding: 10px;
-    color: white;
-    margin-top: 30px;
+#download-cv {
+  background-color: #2d2d2d;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  margin-top: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
 }
 
-#download-cv a{
-    text-decoration: none;
-    color: white;
+#download-cv a {
+  text-decoration: none;
+  color: white;
+  font-family: Ubuntu, sans-serif;
 }
 
-#intro{
-    display: flex;
-    flex-direction: column;
-    font-size: 45px;
+#intro {
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
 }
 
-#intro-container{
-    margin: 100px;
-    margin-top: 150px;
+#intro-container {
+  margin: 100px;
+  margin-top: 150px;
 }
 
-#name{
-    margin: 0px;
-    color: yellow;
-    font-size: 50px;
-    font-weight: bold;
+#name {
+  margin: 0px;
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-main img{
-    height: 500px;
-    width: 700px;
+main img {
+  height: 500px;
+  width: 700px;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }

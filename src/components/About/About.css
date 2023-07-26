@@ -15,6 +15,11 @@
     margin-top: 45px;
 }
 
+#about-me h2{
+    font-family: SF Pro Display;
+    font-weight: bolder;
+}
+
 #education-btn{
     border-radius: 4px;
     border: none;
