@@ -46,6 +46,7 @@
 
 .mega-project-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 60%;
@@ -63,6 +64,7 @@
 
 .pet-project-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 40%;

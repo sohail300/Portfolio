@@ -56,33 +56,45 @@ function Project() {
       {/* Projects for Front End starts */}
       <div id="pet-project" className="project">
         <Card
-          id="todo-list-card"
-          className="pet-project-card"
-          link="https://sohail60.github.io/02-Movie-Seat-Booking/"
-          imageLink="../../images/todo-list-project.png"
-          alt="color-game-project.png"
+          id="e-kaksha-card"
+          className="pet-project-card" name="E-Kaksha"
+          link="https://e-kaksha-online.netlify.app/"
+          imageLink="../../images/ping-pong-project.png"
+          alt="e-kaksha-project.png"
         />
         <Card
-          id="todo-list-card"
-          className="pet-project-card"
-          link="https://sohail60.github.io/04-Exchange-Rate-Calculator/"
+          id="exchange-rate-card"
+          className="pet-project-card" name="Exchange Rate Calculator" link="https://sohail60.github.io/04-Exchange-Rate-Calculator/"
           imageLink="../../images/todo-list-project.png"
-          alt="color-game-project.png"
+          alt="exchange-rate-project.png"
         />
         <Card
-          id="todo-list-card"
-          className="pet-project-card"
+          id="hangman-game-card"
+          className="pet-project-card" name="Hangman Game"
           link="https://sohail60.github.io/06-Hangman-Game/"
           imageLink="../../images/todo-list-project.png"
-          alt="color-game-project.png"
+          alt="hangman-game-project.png"
+        />
+        <Card
+          id="todo-list-card"
+          className="pet-project-card" name="To-do List" link="https://sohail60.github.io/02-Movie-Seat-Booking/"
+          imageLink="../../images/todo-list-project.png"
+          alt="to-do-list-project.png"
         />
         <Card
           id="color-game-card"
-          className="pet-project-card"
+          className="pet-project-card" name="Color Guesser Game"
           link="https://sohail60.github.io/color-guesser-game/"
           imageLink="../../images/color-game-project.png"
           alt="color-game-project.png"
         />
+        {/* <Card
+          id="ping-pong-card"
+          className="pet-project-card" name="Ping Pong Score Keeper"
+          link="https://sohail60.github.io/ping-pong-score-keeper/"
+          imageLink="../../images/ping-pong-project.png"
+          alt="ping-pong-project.png"
+        /> */}
         {/* <Card
                 id="dice-game-card"
                 className="pet-project-card"
@@ -90,20 +102,6 @@ function Project() {
                 imageLink="../../images/dice-game-project.png"
                 alt="dice-game-project.png"
               /> */}
-        <Card
-          id="ping-pong-card"
-          className="pet-project-card"
-          link="https://sohail60.github.io/ping-pong-score-keeper/"
-          imageLink="../../images/ping-pong-project.png"
-          alt="color-game-project.png"
-        />
-        <Card
-          id="todo-list-card"
-          className="pet-project-card"
-          link="https://sohail60.github.io/To-Do-List/"
-          imageLink="../../images/todo-list-project.png"
-          alt="color-game-project.png"
-        />
       </div>
       {/* Projects for Front End ends*/}
 
