@@ -44,7 +44,7 @@ function Achievements() {
             </p> */}
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
-              Worked as a freelancer for a women apperal startup (will be launching in August-September).
+              Worked as a freelancer for a women apperal startup STREEYA (will be launching in August-September).
             </p>
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
