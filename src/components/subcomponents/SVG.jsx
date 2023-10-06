@@ -24,13 +24,13 @@ function SVG() {
             <text x="8%" y="85%" fill="white">10th</text>
             <text x="8%" y="53%" fill="black">2018</text>
 
-            <line x1="13%" y1="50%" x2="46%" y2="50%" stroke-width="2%" stroke="#ffffff" />
+            <line x1="13%" y1="50%" x2="46%" y2="50%" stroke-width="0.5%" stroke="#ffffff" />
 
             <circle cx="49%" cy="50%" r="5%" fill="#ffffff" />
             <text x="47%" y="85%" fill="white">12th</text>
             <text x="47%" y="53%" fill="black">2020</text>
 
-            <line x1="52%" y1="50%" x2="85%" y2="50%" stroke-width="2%" stroke="#ffffff" />
+            <line x1="52%" y1="50%" x2="85%" y2="50%" stroke-width="0.5%" stroke="#ffffff" />
 
             <circle cx="85%" cy="50%" r="5%" fill="#ffffff" />
             <text x="82.5%" y="85%" fill="white">B.Tech</text>
