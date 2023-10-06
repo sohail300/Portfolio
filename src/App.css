@@ -1,5 +1,6 @@
 body {
-  background-image: url("./components/images/bg3.png");
+  /* background-image: url("./components/images/bg3.png"); */
+  background-color: #1c1c24;
   /* background-repeat: no-repeat; */
   background-size: contain; 
   /* Adjust as needed: cover, contain, etc. */

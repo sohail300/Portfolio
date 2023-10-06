@@ -38,26 +38,27 @@ function Achievements() {
       <div id="achievment-desc">
         {experience && (
           <div id="experience" className="achievement">
-            {/* <p>
-              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
-              Lead a group of 4 students in a hackathon.
-            </p> */}
             <p>
-              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
-              Worked as a freelancer for a women apperal startup STREEYA (will be launching in August-September).
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
+              Worked as a freelancer for a women apperal startup STREEYA (will be launching in October-November).
             </p>
             <p>
-              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
+              Received Project offer from Bhagalpur Police: Member of a team of 12+
+              students, collaborated with 6 officers to simplify the FIR progress tracking,
+              multilevel reporting and analytics. For more, refer <a style={{color:'#fff'}} className="links" href="https://timesofindia.indiatimes.com/city/patna/iiit-bhagalpur-and-police-ink-mou-to-develop-ai-based-app/articleshow/102066581.cms">TimesofIndia</a>.
+            </p>
+            {/* , <a className="links" href="https://github.com/sohail60/UI-Designs">Dainik Bhaskar</a>, <a className="links" href="https://github.com/sohail60/UI-Designs">The Bihar Bulletin</a>. */}
+            <p>
+              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
               Contributed in the college fest website. <a className="links" href="https://hackathoniiitbh.github.io/enyugma2022/">Link</a>
             </p>
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
-              Designed UI/UX for these websites. <a className="links" href="https://github.com/sohail60/UI-Designs">Link</a>
+              Demonstrated proficiency in coding by solving over 100+ questions on <a style={{color:'#fff'}} className="links" href="https://leetcode.com/sohail60/">LeetCode</a>,
+              100+ on <a style={{color:'#fff'}} className="links" href="https://auth.geeksforgeeks.org/user/sohailatwork10/">GFG</a> and rest on others. 
             </p>
-            <p>
-              <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />
-              Won a Open Source contest 'HackSquad' organised by Novu.
-            </p>
+
           </div>
         )}
 
@@ -75,11 +76,11 @@ function Achievements() {
           <div id="community-work" className="achievement">
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
-              Organised workshops regarding Cyber Security in college.
+              Incharge of Cyber Security club consisting of 40+ members in college.
             </p>
             <p>
               <FontAwesomeIcon icon={faStar} style={{ color: "#ffc800" }} />{" "}
-              Wrote technical blogs on Hashnode.
+              As the incharge of cyber security club, organised 5+ successful events.
             </p>
           </div>
         )}

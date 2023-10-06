@@ -21,10 +21,10 @@
   border-radius: 4px;
   background-color: greenyellow;
   padding: 10px;
-  background: linear-gradient(90deg, yellow, red, orange);
+  background: linear-gradient(90deg, yellow, red);
   transition: all 0.2s ease-in-out;
   background-size: 400%;
-  font-family: "Schibsted Grotesk", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 600;
 }

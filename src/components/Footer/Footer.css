@@ -30,8 +30,7 @@
   border: none;
   border-radius: 4px;
   width: 30%;
-  /* width: 10%; */
-  background: linear-gradient(90deg, rgb(255, 255, 0), orange);
+  background: linear-gradient(90deg, yellow, red);
   background-size: 400%;
   transition: all 0.2s ease-in-out;
   padding: 10px;

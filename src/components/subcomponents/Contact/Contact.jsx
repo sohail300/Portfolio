@@ -13,8 +13,8 @@ function Contact(){
             <p><span><BsFillTelephoneFill /></span>+91 6206591116</p>
             <p><span><FiMail /></span><a href="mailto:sohailatwork10@gmail.com">sohailatwork10@gmail.com</a></p>
         <div id="image-container">
-            <a href="https://github.com/sohail60"><GitHub /></a>
-            <a href="https://www.linkedin.com/in/md-sohail-ansari-786123202/"><Linkedin /></a>
+            <a href="https://github.com/sohail300"><GitHub /></a>
+            <a href="https://www.linkedin.com/in/md-sohail-ansari-b51201278/"><Linkedin /></a>
             <a href="https://twitter.com/sohail_infinity"><Twitter /></a>
             <a href="https://sohail10.hashnode.dev/"><SiHashnode style={{fontSize:50,color:"#fff"}}/></a>
         </div>

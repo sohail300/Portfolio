@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 40px;
   /* border: 2px solid white; */
   /* width: 80%; */
 }
@@ -26,10 +26,10 @@
   /* background-color: greenyellow; */
   padding: 10px;
   width: 10%;
-  background: linear-gradient(90deg, rgb(255, 255, 0), orange);
+  background: linear-gradient(90deg, yellow, red);
   transition: all 0.2s ease-in-out;
   background-size: 400%;
-  font-family: Ubuntu, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 600;
 }

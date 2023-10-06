@@ -75,7 +75,7 @@ function Form() {
         onChange={handleChanges}
         value={details.message}
       ></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit" style={{fontFamily:"'Rubik',sans-serif"}}>Submit</button>
     </form>
   );
 }
