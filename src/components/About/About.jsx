@@ -7,8 +7,7 @@ function About(){
         <div id='about-me-container'>
             <img src={require('../images/about.jpeg')} alt="About png"/>
             <div id="about-me">
-            <h2>About Me</h2>
-            {/* <button id='education-btn'>Education</button> */}
+            <h2>Education</h2>
                 
             <SVG />
             <div id="education-desc">

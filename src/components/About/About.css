@@ -1,5 +1,6 @@
 #about-me-container{
     display: flex;
+    width: 100%;
 }
 
 #about-me-container img{
@@ -11,6 +12,7 @@
 }
 
 #about-me{
+    padding-top: 32px;
     margin: 30px;
     margin-top: 45px;
 }
