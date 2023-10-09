@@ -9,7 +9,7 @@ function Hero() {
           Hi! I am <span id="name">Md Sohail Ansari</span>
         </div>
         <button id="download-cv">
-          <a href="https://drive.google.com/file/d/1_gxf_BvLyjOU4n6Wzj6zwy4y-o1z0ZP5/view?usp=sharing" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1pTohnv1FJv7tksoo7lNysxS2j-leGJKz/view?usp=sharing" target="_blank" rel="noreferrer">
             Download CV
           </a>
         </button>
